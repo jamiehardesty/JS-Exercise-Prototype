@@ -22,9 +22,9 @@ Two options are included below.
 <details>
   <summary>1. Using Code Sandbox</summary>
 
-  * Launch the sandbox using the link below.
-  * Sign into Code Sandbox.
-  * Fork the sandbox.
+  [x] Launch the sandbox using the link below.
+  [x] Sign into Code Sandbox.
+  [x] Fork the sandbox.
   * See your tests running on the "Browser" tab (NOT the "Tests" tab).
   * The way you'll submit your work will be by pasting a link to your fork into the submission form.
 
