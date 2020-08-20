@@ -40,8 +40,8 @@ Two options are included below.
   [x] 2. Clone _your_ fork (not Lambda's repo by mistake!).
   [x] 3. `cd` into your newly cloned repository.
   [x] 4. Create a new branch by typing `git checkout -b <firstName-lastName>`.
-  5. Install dependencies by typing `npm install`.
-  6. Run tests by typing `npm run test:watch`.
+  [x] 5. Install dependencies by typing `npm install`.
+  [x] 6. Run tests by typing `npm run test:watch`.
   7. Work on your branch, push commits and create PR as usual.
   8. Make sure to commit often!!
 
