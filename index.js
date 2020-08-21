@@ -103,7 +103,7 @@ cute500.fill(10);
 function Baby(name, age, favoriteToy) {
   this.name = name;
   this.age = age;
-  this.favoriteToy = attributes.favoriteToy;
+  this.favoriteToy = favoriteToy;
 }
 Baby.prototype = Object.create(Person.prototype);
 Baby.prototype.play = function(){
