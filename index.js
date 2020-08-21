@@ -77,9 +77,13 @@ function Car(model, milesPerGallon) {
   this.odometer = 0;
 }
 Car.prototype.fill = function(gallons){
-  return this.tank + gallons;
+  return this.tank + this.gallons; // returns NaN 
 }
-Car.prototype.fill(10);
+let cute500 = new Car({
+  model: 'Fiat',
+  milesPerGallon: 30,
+});
+cute500.fill(10);
 
 // Car.prototype.drive = function(distance){
 //   this.odometer + 1;
@@ -98,19 +102,19 @@ function Baby(name, age, favoriteToy) {
   this.age = age;
   this.favoriteToy = attributes.favoriteToy;
 }
+Baby.prototype = Object.create(Person.prototype);
 Baby.prototype.play = function(){
   return `Playing with ${this.favoriteToy}`;
 }
-Baby.prototype = Object.create(Person.prototype);
 
 /* 
   TASK 4
 
   In your own words explain the four principles for the "this" keyword below:
-  1. 
-  2. 
-  3. 
-  4. 
+  1. Global object binding - "this" binds to a new value 
+  2. The name/object to the left of the dot is this
+  3. In a constructor, this refers to what is returned 
+  4. In call & apply, this is explicitly defined.
 */
 
 
