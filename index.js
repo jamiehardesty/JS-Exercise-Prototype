@@ -76,11 +76,10 @@ function Car(model, milesPerGallon) {
   this.tank = 0;
   this.odometer = 0;
 }
-Car.prototype.fill = (gallons) => {
-  Number(this.tank);
-  return this.tank += gallons;
+Car.prototype.fill = function(gallons){
+  return this.tank = gallons + this.tank;
 }
-let batmobile = new Car('Tesla Cybertruck', 250);
+let batmobile = new Car('Tesla Truck',250);
 batmobile.fill(10);
 
 // Car.prototype.drive = function(distance){
