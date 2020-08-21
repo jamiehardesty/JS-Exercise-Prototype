@@ -77,11 +77,11 @@ function Car(model, milesPerGallon) {
   this.odometer = 0;
 }
 Car.prototype.fill = (gallons) => {
-  return gallons + this.tank;
-} // return value on PythonTutor is 10 
-// why isn't [instances of car] satisfied? 
-let red500 = new Car('Fiat',30);
-red500.fill(10);
+  Number(this.tank);
+  return this.tank += gallons;
+}
+let batmobile = new Car('Tesla Cybertruck', 250);
+batmobile.fill(10);
 
 // Car.prototype.drive = function(distance){
 //   this.odometer + 1;
