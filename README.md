@@ -22,9 +22,9 @@ Two options are included below.
 <details>
   <summary>1. Using Code Sandbox</summary>
 
-  * Launch the sandbox using the link below.
-  * Sign into Code Sandbox.
-  * Fork the sandbox.
+  [x] Launch the sandbox using the link below.
+  [x] Sign into Code Sandbox.
+  [x] Fork the sandbox.
   * See your tests running on the "Browser" tab (NOT the "Tests" tab).
   * The way you'll submit your work will be by pasting a link to your fork into the submission form.
 
@@ -36,14 +36,14 @@ Two options are included below.
 <details>
   <summary>2. Using VSCode and the Command Line</summary>
 
-  1. Fork repo and add TL as collaborator on Github.
-  1. Clone _your_ fork (not Lambda's repo by mistake!).
-  1. `cd` into your newly cloned repository.
-  1. Create a new branch by typing `git checkout -b <firstName-lastName>`.
-  1. Install dependencies by typing `npm install`.
-  1. Run tests by typing `npm run test:watch`.
-  1. Work on your branch, push commits and create PR as usual.
-  1. Make sure to commit often!!
+  [x] 1. Fork repo and add TL as collaborator on Github.
+  [x] 2. Clone _your_ fork (not Lambda's repo by mistake!).
+  [x] 3. `cd` into your newly cloned repository.
+  [x] 4. Create a new branch by typing `git checkout -b <firstName-lastName>`.
+  [x] 5. Install dependencies by typing `npm install`.
+  [x] 6. Run tests by typing `npm run test:watch`.
+  7. Work on your branch, push commits and create PR as usual.
+  8. Make sure to commit often!!
 
   <img alt='instructions VSCode' src='./instructionsVScode.png'>
 </details>
